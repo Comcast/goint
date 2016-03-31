@@ -1,22 +1,5 @@
 # Integration testing in Go
-`goint` is an integration testing framework written in Go. It was written for use in applications developed in Go. While the implementation of an integration test using the framework must be written in Go, much of the functionality can be used for applications written in other languages as well. Some of the functionality could be used in contexts other than integration testing.
-
-# Terms
-<table border="1">
-<thead>
-<tr class="header">
-<th align="left"><p>Term</p></th>
-<th align="left"><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-</tr>
-<tr>
-<td align="left"><p>Some term here...</p></td>
-<td align="left"><p>Some description here....
-</p></td>
-</tbody>
-</table>
+`goint` is an integration testing framework written in Go. It was written for use in applications developed in Go. While the implementation of an integration test using the framework must be written in Go, much of the functionality can be used for applications written in other languages as well. Some of the functionality could be used in contexts other than integration testing (e.g., verifying deployments or health checks).
 
 # Features
 `goint` implements several capabilities which can be called verbs. `goint` supports the following verbs:
