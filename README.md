@@ -3,6 +3,7 @@
 
 # Features
 `goint` implements several capabilities which can be called verbs. `goint` supports the following verbs:
+
 1. `Exec` - executes an arbitrary process. This can be anything that can be launched from a shell command line. One field in the `Exec` struct is `Token` which can be referenced in the `Kill` and `Wait` verbs.
 1. `Kill` - used to kill an `Exec`'d process. The process to be killed is identified by the `Token` field value in the corresponding `Exec` definition.
 1. `Delay` - does just that, it delays for a given amount of time and then continues
